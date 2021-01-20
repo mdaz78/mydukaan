@@ -25,7 +25,7 @@ export default function Header() {
               className={downloadButton}
               href="https://play.google.com/store/apps/details?id=com.dukaan.app"
             >
-              Download Now
+              DOWNLOAD APP
             </a>
           </h2>
         </section>
