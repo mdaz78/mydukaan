@@ -77,7 +77,7 @@
   left: 1.25rem;
 }
 
-.middleSection {
+.searchSection {
   display: flex;
   justify-content: center;
   position: relative;
@@ -103,4 +103,11 @@
   .container {
     margin: 0 8.1rem;
   }
+
+  .input {
+    width: 44.1rem;
+  }
+}
+
+@media (max-width: 576px) {
 }

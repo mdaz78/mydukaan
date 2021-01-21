@@ -14,7 +14,7 @@ import {
   bag,
   orders,
   badge,
-  middleSection,
+  searchSection,
   input,
 } from '../styles/DesktopNavbar.module.css';
 
@@ -44,7 +44,7 @@ export default function DesktopNavbar() {
           </div>
         </div>
       </div>
-      <div className={middleSection}>
+      <div className={searchSection}>
         <input
           type="text"
           placeholder="Search for products..."
