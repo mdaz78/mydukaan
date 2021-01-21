@@ -16,3 +16,8 @@
   border-right: 1px solid var(--border-color);
   height: 100vh;
 }
+
+.cart {
+  margin-top: 3.6rem;
+  margin-left: 3.2rem;
+}

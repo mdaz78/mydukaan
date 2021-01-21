@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Cart from './Cart';
+
 import {
   container,
   main,
   categories,
   items,
-  bag,
+  cart,
+  bagHeader,
 } from '../styles/ShoppingArea.module.css';
 
 export default function ShoppingArea() {
@@ -14,7 +17,9 @@ export default function ShoppingArea() {
       <div className={main}>
         <section className={categories}></section>
         <section className={items}></section>
-        <section className={bag}></section>
+        <section className={cart}>
+          <Cart />
+        </section>
       </div>
     </div>
   );
