@@ -22,7 +22,7 @@
 }
 
 .rightSection {
-  width: 18.9rem;
+  width: 19.9rem;
 }
 
 .leftSection > img {
@@ -52,12 +52,16 @@
 .orders {
   width: 6.7rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .orders {
   width: 9rem;
+}
+
+.bag img,
+.orders img {
+  margin-right: 0.8rem;
 }
 
 .badge {
