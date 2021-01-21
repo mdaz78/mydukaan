@@ -78,10 +78,9 @@
 }
 
 .searchSection {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: -2rem;
+  position: absolute;
+  top: 11rem;
+  left: 50%;
 }
 
 .input {
@@ -93,6 +92,8 @@
   background-color: #f2f2f2;
   font-size: 1.6rem;
   border: none;
+  position: relative;
+  left: -50%;
 }
 
 .input::placeholder {
