@@ -1,0 +1,102 @@
+.containerFluid {
+  border-bottom: solid 1px var(--border-color);
+}
+
+.container {
+  margin: 0 16.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.4rem;
+}
+
+.rightSection,
+.leftSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSection {
+  width: 37.4rem;
+}
+
+.rightSection {
+  width: 18.9rem;
+}
+
+.leftSection > img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+
+.leftSection > h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.rightSection > img {
+  width: 2.8rem;
+  height: 2.8rem;
+  object-fit: contain;
+}
+
+.rightSection p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.bag,
+.orders {
+  width: 6.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orders {
+  width: 9rem;
+}
+
+.badge {
+  font-size: 1.6rem;
+  padding: 0.2rem 0.6rem;
+  color: var(--white);
+  background-color: var(--red-badge-color);
+  border-radius: 1rem;
+  font-family: GalanoGrotesqueRegular, 'sans-serif';
+  font-weight: normal;
+  position: relative;
+  top: -1rem;
+  left: 1.25rem;
+}
+
+.middleSection {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -2rem;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 54.1rem;
+  height: 4rem;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 0.6rem;
+  background-color: #f2f2f2;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.input::placeholder {
+  color: #989898;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 0 8.1rem;
+  }
+}

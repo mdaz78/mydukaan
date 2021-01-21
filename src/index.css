@@ -452,15 +452,24 @@ textarea {
 :root {
   --nice-blue: #146eb4;
   --white: #fff;
+  --border-color: #e6e6e6;
+  --red-badge-color: #e50b20;
 }
 
 @font-face {
-  font-family: 'GalanoGrotesque';
-  src: local('GalanoGrotesque'),
+  font-family: 'GalanoGrotesqueMedium';
+  src: local('GalanoGrotesqueMedium'),
     url(./assets/fonts/GalanoGrotesqueMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'GalanoGrotesqueRegular';
+  src: local('GalanoGrotesqueRegular'),
+    url(./assets/fonts/GalanoGrotesqueRegular.ttf) format('truetype');
 }
 
 html {
   font-size: 10px;
-  font-family: GalanoGrotesque, 'sans-serif';
+  font-family: GalanoGrotesqueMedium, 'sans-serif';
+  box-sizing: border-box;
 }
