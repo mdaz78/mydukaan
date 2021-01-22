@@ -9,7 +9,6 @@ import {
   categories,
   items,
   cart,
-  bagHeader,
 } from '../styles/ShoppingArea.module.css';
 
 export default function ShoppingArea() {
