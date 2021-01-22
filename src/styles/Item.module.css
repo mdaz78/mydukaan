@@ -36,7 +36,6 @@
   flex-direction: column;
   box-sizing: border-box;
   margin: 0 2rem;
-  /* padding: 1rem 0; */
   width: 100%;
 }
 
@@ -60,6 +59,7 @@
   font-style: normal;
   letter-spacing: normal;
   color: #1a181e;
+  opacity: 0.8;
 }
 
 .priceSection,
@@ -92,44 +92,6 @@
   padding-left: 0.6rem;
 }
 
-/* .addButton {
-  display: flex;
-  padding: 6px 15px;
-  border-radius: 4px;
-  border: solid 1px var(--nice-blue);
-  background-color: var(--white);
-  cursor: pointer;
-}
-
-.addButton span {
-  font-size: 1.4rem;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--nice-blue);
-}
-
-.addButton img {
-  padding-left: 0.7rem;
-}
-
-.quantitySection {
-  display: flex;
-  border-radius: 4px;
-  border: solid 1px var(--nice-blue);
-  background-color: var(--white);
-}
-
-.quantitySection > * {
-  padding: 0 1rem;
-}
-
-.quantitySection span {
-  font-size: 1.6rem;
-} */
-
 .addButton {
   width: 8.1rem;
   height: 2.8rem;
@@ -138,6 +100,7 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .addButton > img {
@@ -156,4 +119,40 @@
   text-align: center;
   color: var(--nice-blue);
   padding-left: 1.6rem;
+}
+
+.quantitySection {
+  width: 8.1rem;
+  height: 2.8rem;
+  border: solid 1px var(--nice-blue);
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantitySection > * {
+  align-self: center;
+  justify-self: center;
+}
+
+.quantitySection span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--nice-blue);
+  height: 100%;
+  width: 100%;
+  display: inline-grid;
+  place-items: center;
+  background-color: rgba(20, 110, 180, 0.1);
+}
+
+.btn {
+  cursor: pointer;
 }

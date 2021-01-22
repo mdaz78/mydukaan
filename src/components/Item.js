@@ -11,6 +11,7 @@ import {
   oldPrice,
   addButton,
   quantitySection,
+  btn,
 } from '../styles/Item.module.css';
 
 import plus from '../assets/images/icons-consumer-plus.svg';
@@ -50,9 +51,9 @@ export default function Item({
 
     return (
       <div className={quantitySection}>
-        <img src={minus} alt="minus button" />
+        <img src={minus} alt="minus button" className={btn} />
         <span>{quantity}</span>
-        <img src={plus} alt="plus button" />
+        <img src={plus} alt="plus button" className={btn} />
       </div>
     );
   };
