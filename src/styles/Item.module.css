@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+  margin-bottom: 3.2rem;
+  width: 100%;
+  height: 12rem;
+}
+
+.imageSection {
+  width: 12rem;
+  height: 12rem;
+}
+
+.itemImage {
+  width: 12rem;
+  height: 12rem;
+}
+
+.discountSection {
+  border-radius: 0.4rem;
+  background-color: #ee741f;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: var(--white);
+  display: inline;
+  position: relative;
+  top: -0.75rem;
+  right: -2.88rem;
+}
+
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 2rem;
+  /* padding: 1rem 0; */
+  width: 100%;
+}
+
+.detailsSection h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #1a181e;
+  padding-bottom: 0.8rem;
+  padding-top: 1.4rem;
+}
+
+.detailsSection p {
+  padding-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-family: GalanoGrotesque-Regular, 'sans-serif';
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #1a181e;
+}
+
+.priceSection,
+.discountedPriceSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceSection {
+  padding-bottom: 1.4rem;
+}
+
+.discountedPriceSection {
+  font-size: 2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #1a181e;
+}
+
+.oldPrice {
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #808080;
+  text-decoration: line-through;
+  padding-left: 0.6rem;
+}
+
+/* .addButton {
+  display: flex;
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: solid 1px var(--nice-blue);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.addButton span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--nice-blue);
+}
+
+.addButton img {
+  padding-left: 0.7rem;
+}
+
+.quantitySection {
+  display: flex;
+  border-radius: 4px;
+  border: solid 1px var(--nice-blue);
+  background-color: var(--white);
+}
+
+.quantitySection > * {
+  padding: 0 1rem;
+}
+
+.quantitySection span {
+  font-size: 1.6rem;
+} */
+
+.addButton {
+  width: 8.1rem;
+  height: 2.8rem;
+  border: solid 1px var(--nice-blue);
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.addButton > img {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+.addButton > span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--nice-blue);
+  padding-left: 1.6rem;
+}
