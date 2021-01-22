@@ -2,6 +2,7 @@ import React from 'react';
 
 import Cart from './Cart';
 import Items from './Items';
+import Categories from './Categories';
 
 import {
   container,
@@ -15,7 +16,9 @@ export default function ShoppingArea() {
   return (
     <div className={container}>
       <div className={main}>
-        <section className={categories}></section>
+        <section className={categories}>
+          <Categories />
+        </section>
         <section className={items}>
           <Items />
         </section>

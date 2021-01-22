@@ -16,6 +16,10 @@
   border-right: 1px solid var(--border-color);
 }
 
+.categories {
+  margin-right: 2px;
+}
+
 .cart {
   margin-top: 3.6rem;
   margin-left: 3.2rem;

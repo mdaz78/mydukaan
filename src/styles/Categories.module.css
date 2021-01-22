@@ -1,0 +1,34 @@
+.container {
+  margin-top: 4rem;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #1a181e;
+}
+
+li {
+  width: 25.5rem;
+  height: 3.6rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-grid;
+  align-items: center;
+  border-right: 0.4rem solid var(--white);
+}
+
+li:first-child {
+  border-right: 0.4rem solid var(--nice-blue);
+  background: linear-gradient(
+    to left,
+    rgba(20, 110, 180, 0.08),
+    rgba(20, 110, 180, 0)
+  );
+}
+
+li:last-child {
+  color: var(--nice-blue);
+  grid-template-columns: 63% 37%;
+}
