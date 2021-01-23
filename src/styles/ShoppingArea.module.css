@@ -25,14 +25,12 @@
   margin-left: 3.2rem;
 }
 
-/* tablets */
 @media (max-width: 1024px) {
   .container {
     margin: 0 4rem;
   }
 }
 
-/* tablets */
 @media (max-width: 768px) {
   .header {
     margin: 0 2rem;
