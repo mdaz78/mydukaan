@@ -13,6 +13,7 @@ import iceCream5 from '../assets/images/ice-creams/ice-cream-5.png';
 export default function Items() {
   const items = [
     {
+      id: 1,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 189,
@@ -22,6 +23,7 @@ export default function Items() {
       image: iceCream1,
     },
     {
+      id: 2,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -29,6 +31,7 @@ export default function Items() {
       image: iceCream2,
     },
     {
+      id: 3,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -37,6 +40,7 @@ export default function Items() {
       discountPercent: 30,
     },
     {
+      id: 4,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -44,6 +48,7 @@ export default function Items() {
       image: iceCream4,
     },
     {
+      id: 5,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -51,6 +56,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 6,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -58,6 +64,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 7,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -65,6 +72,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 8,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -72,6 +80,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 9,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -79,6 +88,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 10,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 189,
@@ -88,6 +98,7 @@ export default function Items() {
       image: iceCream1,
     },
     {
+      id: 11,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -95,6 +106,7 @@ export default function Items() {
       image: iceCream2,
     },
     {
+      id: 12,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -103,6 +115,7 @@ export default function Items() {
       discountPercent: 30,
     },
     {
+      id: 13,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -110,14 +123,7 @@ export default function Items() {
       image: iceCream4,
     },
     {
-      title: 'Kwality Walls Black Currant',
-      unit: 1,
-      price: 99,
-      quantity: 0,
-      image: iceCream5,
-    },
-
-    {
+      id: 14,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -125,6 +131,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 15,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -132,6 +139,7 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 16,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -139,6 +147,15 @@ export default function Items() {
       image: iceCream5,
     },
     {
+      id: 17,
+      title: 'Kwality Walls Black Currant',
+      unit: 1,
+      price: 99,
+      quantity: 0,
+      image: iceCream5,
+    },
+    {
+      id: 18,
       title: 'Kwality Walls Black Currant',
       unit: 1,
       price: 99,
@@ -155,7 +172,7 @@ export default function Items() {
       </section>
       <section className={body}>
         {items.map((item) => (
-          <Item {...item} />
+          <Item key={item.id} {...item} />
         ))}
       </section>
     </div>
