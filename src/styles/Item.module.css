@@ -90,6 +90,8 @@
   color: #808080;
   text-decoration: line-through;
   padding-left: 0.6rem;
+  font-family: GalanoGrotesqueRegular;
+  opacity: 0.7;
 }
 
 .addButton {
