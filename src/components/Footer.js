@@ -3,6 +3,8 @@ import React from 'react';
 import freeDelivery from '../assets/images/icons-easyreturns.svg';
 import support from '../assets/images/icons-support.svg';
 import buyerProtection from '../assets/images/icons-protection.svg';
+import chatWithUs from '../assets/images/chat-with-us.svg';
+import squares from '../assets/images/sqaures.svg';
 
 import {
   containerFluid,
@@ -11,6 +13,8 @@ import {
   storeDetails,
   storeName,
   storeAddress,
+  contact,
+  menu,
 } from '../styles/Footer.module.css';
 
 export default function Footer() {
@@ -46,6 +50,13 @@ export default function Footer() {
               </p>
             </address>
           </section>
+        </section>
+
+        <section className={contact}>
+          <img src={chatWithUs} alt="Whatsapp Chat" />
+        </section>
+        <section className={menu}>
+          <img src={squares} alt="menu" />
         </section>
       </div>
     </div>
