@@ -12,6 +12,7 @@ import {
   addButton,
   quantitySection,
   btn,
+  outOfStockStyle,
 } from '../styles/Item.module.css';
 
 import plus from '../assets/images/icons-consumer-plus.svg';
@@ -25,6 +26,7 @@ export default function Item({
   discountPercent,
   quantity,
   image,
+  outOfStock,
 }) {
   const getPrice = () => {
     if (!discountedPrice) {
@@ -40,13 +42,17 @@ export default function Item({
   };
 
   const getAddToCart = () => {
-    if (!quantity) {
+    if (!quantity && !outOfStock) {
       return (
         <div className={addButton}>
           <span>ADD</span>
           <img src={plus} alt="add button" />
         </div>
       );
+    }
+
+    if (outOfStock) {
+      return <h3 className={outOfStockStyle}>Out of Stock</h3>;
     }
 
     return (

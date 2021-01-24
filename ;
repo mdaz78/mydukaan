@@ -1,0 +1,30 @@
+.container {
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  box-sizing: border-box;
+}
+
+.container h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a181e;
+}
+
+.bestSellersContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+}
+
+.bestSeller {
+  margin: 1.6rem 1.6rem 1.6rem 0;
+}
+
+.bestSeller img {
+  opacity: 0.9;
+}

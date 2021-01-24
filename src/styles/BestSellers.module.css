@@ -1,0 +1,60 @@
+.container {
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  box-sizing: border-box;
+}
+
+.container h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1a181e;
+}
+
+.bestSellersContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.bestSeller {
+  box-sizing: border-box;
+  margin: 1.6rem 1.6rem 1.6rem 0;
+  width: 12.4rem;
+  height: 12.4rem;
+}
+
+.bestSeller img {
+  width: 12.4rem;
+  height: 12.4rem;
+}
+
+.bestSeller p {
+  position: relative;
+  top: -15rem;
+  right: -1.25rem;
+  /* color: var(--white); */
+  z-index: 5;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.overlay {
+  width: 12.4rem;
+  height: 12.4rem;
+  background-color: #1a181e;
+  position: relative;
+  top: -12.4rem;
+  opacity: 0.2;
+  border-radius: 0.8rem;
+}

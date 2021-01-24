@@ -2,7 +2,14 @@ import React from 'react';
 
 import Item from './Item';
 
-import { header, counter, body, container } from '../styles/Items.module.css';
+import {
+  header,
+  counter,
+  body,
+  container,
+  mobileHeader,
+  desktopHeader,
+} from '../styles/Items.module.css';
 
 import iceCream1 from '../assets/images/ice-creams/ice-cream-1.png';
 import iceCream2 from '../assets/images/ice-creams/ice-cream-2.png';
@@ -38,6 +45,7 @@ export default function Items() {
       quantity: 0,
       image: iceCream3,
       discountPercent: 30,
+      outOfStock: true,
     },
     {
       id: 4,
@@ -167,7 +175,8 @@ export default function Items() {
   return (
     <div className={container}>
       <section className={header}>
-        <h2>Bestsellers</h2>
+        <h2 className={desktopHeader}>Bestsellers</h2>
+        <h2 className={mobileHeader}>Ice Creams</h2>
         <div className={counter}>10</div>
       </section>
       <section className={body}>

@@ -58,9 +58,15 @@
   background-color: #f2f2f2;
   font-size: 1.6rem;
   border: none;
+  font-family: GalanoGrotesqueRegular;
 }
 
 .input::placeholder {
   color: #989898;
   font-size: 1.5rem;
+  font-family: GalanoGrotesqueRegular;
+}
+
+.bestSellers {
+  margin-top: 1.6rem;
 }

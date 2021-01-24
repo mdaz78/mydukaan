@@ -158,3 +158,82 @@
 .btn {
   cursor: pointer;
 }
+
+.outOfStockStyle {
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #e50b20;
+}
+
+/* phones */
+@media (max-width: 576px) {
+  .container {
+    margin: 0;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    height: 9.6rem;
+  }
+
+  .container:first-child {
+    padding-top: 0;
+  }
+
+  .imageSection {
+    width: 9.6rem;
+    height: 9.6rem;
+  }
+
+  .itemImage {
+    width: 9.6rem;
+    height: 9.6rem;
+  }
+
+  .container:last-child {
+    border: none;
+  }
+
+  .detailsSection {
+    margin: 0;
+    margin-left: 1.2rem;
+  }
+
+  .detailsSection h1 {
+    font-size: 1.4rem;
+  }
+
+  .detailsSection p {
+    font-size: 1.2rem;
+  }
+
+  .discountSection {
+    right: -1.5rem;
+  }
+
+  .discountedPriceSection {
+    font-size: 1.5rem;
+  }
+
+  .oldPrice {
+    font-size: 1.4rem;
+    padding-top: 0.1rem;
+  }
+
+  .addButton {
+    width: 7.3rem;
+    height: 2.8rem;
+  }
+
+  .addButton span {
+    padding-left: 1.2rem;
+  }
+
+  .quantitySection {
+    width: 7.3rem;
+    height: 2.8rem;
+  }
+}
