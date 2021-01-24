@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { container } from '../styles/Categories.module.css';
+import { container, li } from '../styles/Categories.module.css';
 
 import Arrow from '../assets/images/arrow.svg';
 
@@ -40,7 +40,7 @@ export default function Categories() {
 
   const getCategoryJSX = ({ id, name, quantity }) => {
     return (
-      <li key={id}>
+      <li className={li} key={id}>
         {name} ({quantity})
       </li>
     );
@@ -49,7 +49,7 @@ export default function Categories() {
   return (
     <ul className={container}>
       {categoryList.map((category) => getCategoryJSX(category))}
-      <li>
+      <li className={li}>
         View all Categories <img src={Arrow} alt="arrow" />
       </li>
     </ul>
