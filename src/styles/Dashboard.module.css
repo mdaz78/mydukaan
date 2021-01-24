@@ -190,10 +190,88 @@
   font-family: GalanoGrotesqueRegular;
   appearance: none;
   position: relative;
+  cursor: pointer;
 }
 
 .shareStoreLink img {
   position: absolute;
   right: 4.5rem;
   top: 12.65rem;
+}
+
+.countsContainer {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: 36.8rem auto;
+  grid-gap: 2.4rem;
+}
+
+.countsContainer .intro {
+  height: 22.2rem;
+  background-color: var(--white);
+  box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.countsContainer .intro p:first-child {
+  font-family: GalanoGrotesqueRegular;
+  font-size: 1.6rem;
+  color: #4d4d4d;
+  margin-bottom: 1.4rem;
+  line-height: 1.5;
+}
+
+.countsContainer .intro a {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ee741f;
+  margin-bottom: 2.6rem;
+  line-height: 1.44;
+}
+
+.countsContainer .intro .shareVia {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.countsContainer .intro .socialLinks img {
+  padding-right: 1.2rem;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.countsContainer .counts {
+  display: grid;
+  grid-template-columns: 36.8rem 36.8rem;
+  grid-gap: 2.4rem;
+  box-sizing: border-box;
+}
+
+.counts > div {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
+  background-color: var(--white);
+  padding: 1.7rem 2rem;
+  box-sizing: border-box;
+  height: 9.9rem;
+}
+
+.counts > div p:first-child {
+  font-family: GalanoGrotesqueRegular;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.5;
+  color: #4d4d4d;
+  margin-bottom: 0.4rem;
+}
+
+.counts > div p:last-child {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #1a181e;
 }

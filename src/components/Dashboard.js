@@ -8,6 +8,9 @@ import marketingImg from '../assets/images/icons_navbar_marketing_inactive.svg';
 import accountImg from '../assets/images/icons_navbar_account_inactive.svg';
 import verify from '../assets/images/icons_verify.svg';
 import downArrow from '../assets/images/icons_arrow.svg';
+import whatsApp from '../assets/images/whatsapp.svg';
+import facebook from '../assets/images/facebook.svg';
+import twitter from '../assets/images/twitter.svg';
 
 import {
   container,
@@ -24,6 +27,15 @@ import {
   title,
   shareStoreLink,
   dashboardContainer,
+  countsContainer,
+  intro,
+  counts,
+  orders,
+  sales,
+  storeViews,
+  productViews,
+  shareVia,
+  socialLinks,
 } from '../styles/Dashboard.module.css';
 
 export default function Dashboard() {
@@ -72,7 +84,6 @@ export default function Dashboard() {
             <p>How to use</p>
           </div>
         </section>
-
         <section className={dashboardContainer}>
           <section className={shareStoreLink}>
             <h2>Share Store Link</h2>
@@ -81,6 +92,41 @@ export default function Dashboard() {
               <option value="Last Year">Last Year</option>
             </select>
             <img src={downArrow} alt="Down Arrow" />
+          </section>
+          <section className={countsContainer}>
+            <section className={intro}>
+              <p>
+                Your customers can view your online store and place the orders
+                from this link.
+              </p>
+              <a href="mydukaa.io/manosupermarket">
+                mydukaa.io/manosupermarket
+              </a>
+              <p className={shareVia}>Share via</p>
+              <div className={socialLinks}>
+                <img src={whatsApp} alt="WhatsApp" />
+                <img src={facebook} alt="Facebook" />
+                <img src={twitter} alt="Twitter" />
+              </div>
+            </section>
+            <section className={counts}>
+              <div className={orders}>
+                <p>ORDERS</p>
+                <p>192</p>
+              </div>
+              <div className={sales}>
+                <p>TOTAL SALES</p>
+                <p>&#8377;1,55,920</p>
+              </div>
+              <div className={storeViews}>
+                <p>STORE VIEWS</p>
+                <p>96</p>
+              </div>
+              <div className={productViews}>
+                <p>PRODUCT VIEWS</p>
+                <p>2,313</p>
+              </div>
+            </section>
           </section>
         </section>
       </section>
