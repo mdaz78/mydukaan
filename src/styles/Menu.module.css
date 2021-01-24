@@ -42,9 +42,15 @@
   border-radius: 2.4rem;
 }
 
-/* .home {
-  opacity: 0.1;
-  border-radius: 20px;
-  border: solid 1px #146eb4;
-  background-color: #146eb4;
-} */
+.badge {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  color: var(--white);
+  background-color: var(--red-badge-color);
+  border-radius: 1rem;
+  font-family: GalanoGrotesqueRegular, 'sans-serif';
+  font-weight: normal;
+  position: relative;
+  top: -1rem;
+  left: 1.25rem;
+}

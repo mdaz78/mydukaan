@@ -10,6 +10,7 @@ import {
   home,
   bag,
   order,
+  badge,
 } from '../styles/Menu.module.css';
 
 export default function Menu() {
@@ -21,6 +22,7 @@ export default function Menu() {
           <p>Home</p>
         </section>
         <section className={bag}>
+          <span className={badge}>3</span>
           <img src={bagImg} alt="Bag" />
           <p>Bag</p>
         </section>
