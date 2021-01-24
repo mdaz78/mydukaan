@@ -16,9 +16,9 @@ import {
   badge,
   searchSection,
   input,
-} from '../styles/DesktopNavbar.module.css';
+} from '../styles/Navbar.module.css';
 
-export default function DesktopNavbar() {
+export default function Navbar() {
   return (
     <>
       <div className={containerFluid}>
