@@ -11,6 +11,7 @@ import downArrow from '../assets/images/icons_arrow.svg';
 import whatsApp from '../assets/images/whatsapp.svg';
 import facebook from '../assets/images/facebook.svg';
 import twitter from '../assets/images/twitter.svg';
+import rightArrow from '../assets/images/right-arrow.svg';
 
 import {
   container,
@@ -36,6 +37,10 @@ import {
   productViews,
   shareVia,
   socialLinks,
+  activeOrdersContainer,
+  activeMenubar,
+  activeCounts,
+  ordersContainer,
 } from '../styles/Dashboard.module.css';
 
 export default function Dashboard() {
@@ -128,6 +133,26 @@ export default function Dashboard() {
               </div>
             </section>
           </section>
+          <section className={activeOrdersContainer}>
+            <section className={activeMenubar}>
+              <h2>Active Orders</h2>
+              <p>
+                View All <img src={rightArrow} alt="Right Arrow" />
+              </p>
+            </section>
+            <section className={activeCounts}>
+              <div>
+                <p>Pending (12)</p>
+              </div>
+              <div>
+                <p>Accepted (33)</p>
+              </div>
+              <div>
+                <p>Shipped (121)</p>
+              </div>
+            </section>
+          </section>
+          <section className={ordersContainer}></section>
         </section>
       </section>
     </div>
