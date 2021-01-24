@@ -36,6 +36,8 @@ import {
   productViews,
   shareVia,
   socialLinks,
+  activeOrdersContainer,
+  activeCounts,
 } from '../styles/Dashboard.module.css';
 
 export default function Dashboard() {
@@ -125,6 +127,20 @@ export default function Dashboard() {
               <div className={productViews}>
                 <p>PRODUCT VIEWS</p>
                 <p>2,313</p>
+              </div>
+            </section>
+          </section>
+          <section className={activeOrdersContainer}>
+            <h2>Active Orders</h2>
+            <section className={activeCounts}>
+              <div>
+                <p>Pending (12)</p>
+              </div>
+              <div>
+                <p>Accepted (33)</p>
+              </div>
+              <div>
+                <p>Shipped (121)</p>
               </div>
             </section>
           </section>

@@ -204,6 +204,7 @@
   box-sizing: border-box;
   grid-template-columns: 36.8rem auto;
   grid-gap: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .countsContainer .intro {
@@ -274,4 +275,44 @@
   font-size: 3.2rem;
   font-weight: 500;
   color: #1a181e;
+}
+
+.activeOrdersContainer h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #1a181e;
+  margin-bottom: 2.4rem;
+}
+
+.activeOrdersContainer .activeCounts {
+  display: flex;
+}
+
+.activeOrdersContainer div {
+  width: 13.4rem;
+  height: 3.6rem;
+  border-radius: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  color: #808080;
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+.activeOrdersContainer div:first-child {
+  background-color: var(--nice-blue);
+  color: var(--white);
+}
+
+.activeOrdersContainer div p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
 }
