@@ -58,3 +58,31 @@
   opacity: 0.2;
   border-radius: 0.8rem;
 }
+
+.items {
+  margin-bottom: 1.5rem;
+}
+
+.allProductsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3.7rem;
+}
+
+.allProducts {
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17.9rem;
+  height: 3rem;
+  background-color: #f2f2f2;
+  border-radius: 0.4rem;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.allProducts p {
+  font-size: 1.4rem;
+}

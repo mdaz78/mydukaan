@@ -5,6 +5,7 @@ import Items from '../components/Items';
 import homeFoods from '../assets/images/homeFoods.jpg';
 import iceCream from '../assets/images/iceCreams.jpg';
 import salad from '../assets/images/ice-creams/ice-cream-3.png';
+import arrowBlack from '../assets/images/arrow-black.svg';
 
 import {
   container,
@@ -13,6 +14,8 @@ import {
   imageSection,
   overlay,
   items,
+  allProductsContainer,
+  allProducts,
 } from '../styles/BestSellers.module.css';
 
 export default function BestSellers() {
@@ -39,6 +42,12 @@ export default function BestSellers() {
       <section className={items}>
         <Items />
       </section>
+      <div className={allProductsContainer}>
+        <section className={allProducts}>
+          <p>SEE ALL PRODUCTS</p>
+          <img src={arrowBlack} alt="Arrow" />
+        </section>
+      </div>
     </div>
   );
 }
