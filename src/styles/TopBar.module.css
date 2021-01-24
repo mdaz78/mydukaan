@@ -1,0 +1,66 @@
+.containerFluid {
+  width: 100%;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.container {
+  margin: 1.2rem 1.6rem;
+}
+
+.container > img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.storeDetails {
+  display: grid;
+  grid-template-columns: 5.6rem auto;
+  grid-gap: 1rem;
+}
+
+.storeDetails .detailsSide h2 {
+  padding: 0.8rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.trustedSeller {
+  display: flex;
+  align-items: center;
+}
+
+.trustedSeller > img {
+  padding-right: 0.4rem;
+}
+
+.trustedSeller p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--green);
+}
+
+.search {
+  margin-top: 1.2rem;
+}
+
+.search input {
+  height: 3.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.2rem 0 1.2rem 1.6rem;
+  border-radius: 0.6rem;
+  background-color: #f2f2f2;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.input::placeholder {
+  color: #989898;
+  font-size: 1.5rem;
+}
