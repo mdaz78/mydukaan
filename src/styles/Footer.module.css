@@ -73,6 +73,10 @@ hr {
   display: none;
 }
 
+.menu {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .container {
     margin: 0 1.6rem;
