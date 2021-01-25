@@ -6,7 +6,7 @@ dashboard => https://mydukaan.iamzafar.com/#/dashboard
 
 NOTE: 
 1. To view the mobile view, you have to visit the home link using a screen size equal to or smaller than `576px`
-2. The dashboard view is not responsive, it is meant to be viewed with screen size of `1044px`
+2. The dashboard view is not responsive, it is meant to be viewed with screen size of `1440px`
 
 
 ## Setup
