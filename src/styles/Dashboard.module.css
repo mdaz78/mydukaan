@@ -154,15 +154,15 @@
 }
 
 .pointer {
-  width: 0.5rem;
+  width: 0.4rem;
   height: 0.5rem;
   background-color: var(--nice-blue);
   position: absolute;
   font-size: 1.4rem;
   transform: rotate(45deg);
-  top: 4.45rem;
+  top: 4.35rem;
   border-radius: 0 0 0.1rem 0;
-  right: 13.16rem;
+  right: 13.2rem;
 }
 
 .dashboardContainer {

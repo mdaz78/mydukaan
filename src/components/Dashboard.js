@@ -49,6 +49,7 @@ import {
   itemDetails,
   itemQuantityAndCost,
   detailsButton,
+  pointer,
 } from '../styles/Dashboard.module.css';
 
 export default function Dashboard() {
@@ -92,7 +93,7 @@ export default function Dashboard() {
             <img src={verify} alt="tick-mark" />
           </div>
           <div className={helpContainer}>
-            {/* <div className={pointer}></div> */}
+            <div className={pointer}></div>
             <div className={questionMark}>?</div>
             <p>How to use</p>
           </div>
