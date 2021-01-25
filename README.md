@@ -18,4 +18,4 @@ To setup the app do the following steps
 3. run `yarn install`
 4. to start the server run `yarn start`
 
-The only external dependency used in `react-router-dom`
+The only external dependency used is `react-router-dom`
