@@ -5,10 +5,15 @@
 }
 .menuBar {
   width: 22.4rem;
-  height: 100vh;
   background-color: var(--dark);
   padding-top: 2.4rem;
   box-sizing: border-box;
+  height: 100vh;
+  position: fixed;
+}
+
+.dashboard {
+  margin-left: 22.4rem;
 }
 
 .logo {
@@ -213,6 +218,7 @@
   box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
   padding: 2rem;
   box-sizing: border-box;
+  border-radius: 8px;
 }
 
 .countsContainer .intro p:first-child {
@@ -330,4 +336,116 @@
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
+}
+
+.mainOrdersContainer {
+  display: grid;
+  grid-template-columns: 36.8rem 36.8rem 36.8rem;
+  box-sizing: border-box;
+  grid-gap: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.mainOrdersContainer > div {
+  box-sizing: border-box;
+  height: 14.8rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 1.6rem;
+}
+
+.mainOrdersContainer > div .details {
+  display: flex;
+  align-items: center;
+}
+
+.mainOrdersContainer div .details .ordersId {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  margin-right: 0.8rem;
+}
+
+.mainOrdersContainer > div .details .tag {
+  width: 4.1rem;
+  height: 2rem;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8.5rem;
+}
+
+.mainOrdersContainer > div .details .timeElapsed {
+  font-family: GalanoGrotesqueRegular;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.43;
+  color: #808080;
+}
+
+.mainOrdersContainer .itemDetails {
+  margin-top: 1.2rem;
+  display: flex;
+  position: relative;
+}
+
+.mainOrdersContainer .itemDetails img {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 1.6rem;
+}
+
+.mainOrdersContainer .itemDetails .itemQuantityAndCost {
+  /* display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around; */
+  margin: 1rem 0;
+}
+
+.mainOrdersContainer .itemDetails .itemQuantityAndCost p:last-child {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.44;
+  color: #146eb4;
+}
+
+.mainOrdersContainer .itemDetails .itemQuantityAndCost p:first-child {
+  font-family: GalanoGrotesqueRegular;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #808080;
+  margin-bottom: 1rem;
+}
+
+.mainOrdersContainer .detailsButton {
+  width: 9.4rem;
+  height: 3.2rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  background-color: var(--white);
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #1a181e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: -24rem;
+  bottom: 3rem;
+}
+
+.mainOrdersContainer .detailsButton img {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding-top: 0.2rem;
+}
+
+.mainOrdersContainer .details {
 }

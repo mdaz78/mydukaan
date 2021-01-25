@@ -12,6 +12,7 @@ import whatsApp from '../assets/images/whatsapp.svg';
 import facebook from '../assets/images/facebook.svg';
 import twitter from '../assets/images/twitter.svg';
 import rightArrow from '../assets/images/right-arrow.svg';
+import iceCream from '../assets/images/ice-creams/ice-cream-2.png';
 
 import {
   container,
@@ -40,7 +41,14 @@ import {
   activeOrdersContainer,
   activeMenubar,
   activeCounts,
-  ordersContainer,
+  mainOrdersContainer,
+  ordersId,
+  tag,
+  timeElapsed,
+  details,
+  itemDetails,
+  itemQuantityAndCost,
+  detailsButton,
 } from '../styles/Dashboard.module.css';
 
 export default function Dashboard() {
@@ -152,7 +160,132 @@ export default function Dashboard() {
               </div>
             </section>
           </section>
-          <section className={ordersContainer}></section>
+          <section className={mainOrdersContainer}>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag}>NEW</div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag}>NEW</div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag}>NEW</div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag}>NEW</div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag} style={{ visibility: 'hidden' }}>
+                  NEW
+                </div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+            <div>
+              <div className={details}>
+                <p className={ordersId}>Order #281217</p>
+                <div className={tag} style={{ visibility: 'hidden' }}>
+                  NEW
+                </div>
+                <p className={timeElapsed}>Today, 11:11 PM</p>
+              </div>
+
+              <div className={itemDetails}>
+                <img src={iceCream} alt="Item" />
+                <div className={itemQuantityAndCost}>
+                  <p>1 item</p>
+                  <p>&#8377;79</p>
+                </div>
+              </div>
+
+              <div className={detailsButton}>
+                <p>Details</p>
+                <img src={rightArrow} alt="Right Arrow" />
+              </div>
+            </div>
+          </section>
         </section>
       </section>
     </div>
