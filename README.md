@@ -1,8 +1,8 @@
 ## Web App
 
-home => https://mydukaan.iamzafar.com/
+home => https://mydukaan.iamzafar.com/#/
 
-dashboard => https://mydukaan.iamzafar.com/dashboard
+dashboard => https://mydukaan.iamzafar.com/#/dashboard
 
 NOTE: 
 1. To view the mobile view, you have to visit the home link using a screen size equal to or smaller than `576px`
